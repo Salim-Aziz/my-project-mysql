@@ -1,0 +1,37 @@
+.headr {
+  align-items: center;
+  padding: 30px;
+  /* background-color: rgb(27, 25, 25); */
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  /* padding: 50px; */
+  overflow: hidden;
+}
+.headr form {
+  padding: 50px;
+  position: relative;
+  left: 37%;
+}
+.data {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 12%;
+  display: block;
+  /* text-align: center; */
+  /* padding: 50px; */
+}
+.submit-btn {
+  position: relative;
+  right: 38%;
+  margin-top: 1%;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ea0000;
+}

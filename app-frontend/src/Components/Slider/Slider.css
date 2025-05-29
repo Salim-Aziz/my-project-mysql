@@ -1,0 +1,55 @@
+.main {
+  background-color: rgb(188, 188, 188);
+  /* display: flex; */
+}
+.slider {
+  display: flex;
+  overflow: hidden;
+}
+.slider img {
+  width: 50%;
+  height: 30%;
+  padding: 5%;
+  border-radius: 50px;
+  /* display: flex; */
+  animation: slide 18s infinite;
+  /* overflow: hidden; */
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  15% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-100%);
+  }
+  35% {
+    transform: translateX(-100%);
+  }
+  40% {
+    transform: translateX(-200%);
+  }
+  55% {
+    transform: translateX(-200%);
+  }
+  60% {
+    transform: translateX(-300%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+  80% {
+    transform: translateX(-400%);
+  }
+  95% {
+    transform: translateX(-400%);
+  }
+  100% {
+    transform: translateX(-500%);
+  }
+  /* 105% {
+    transform: translateX(-500%);
+  } */
+}

@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* grid-template-columns: 1fr 3fr 2fr; */
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* padding: 0 65px; */
+  height: auto;
+  align-items: center;
+  width: 100%;
+  color: black;
+  background-color: rgb(188, 188, 188);
+  overflow: hidden;
+  padding-top: 20px;
+}
+.logo {
+  /* height: 60px; */
+  height: 4rem;
+  /* left: 1px; */
+}
+.logo img {
+  width: 256% !important;
+  height: 110%;
+  object-fit: cover;
+  /* position: relative;
+  left: 235%; */
+}
+
+.cart-signup {
+  position: relative;
+  margin-right: 3%;
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+.cart-signup img {
+  width: 31px;
+}
+.cart-signup button {
+  width: 96px;
+  height: 33px;
+  outline: none;
+  border: 1px solid gray;
+  color: #515151;
+  font-size: 20px;
+  font-weight: 500;
+  background: white;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.cart-signup button:active {
+  background: red;
+}
+.cart-count {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -28px;
+  margin-left: -55px;
+  border-radius: 11px;
+  font-size: 14px;
+  background: red;
+  color: white;
+}
