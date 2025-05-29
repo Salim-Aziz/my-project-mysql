@@ -88,7 +88,6 @@ app.get(`${api}/all`, cors(corsOptions), async (req, res, next) => {
       // console.log("these are all results", results);
       res.status(200).json(results);
       products = results;
-      // console.log("these are all products", results);
       // res.status(200).json(results); // send fetched products
     });
     // const products = await Product.find({}); // Fetch all products -- replace it with mysql query -- get all products from prodcut table
